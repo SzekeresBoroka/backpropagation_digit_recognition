@@ -22,7 +22,7 @@ for i = 1:readDigits
     y(:,:,i) = Y{end};
     v(:,:,i) = V{end};
 end                               
-Draw(imgsTest, labelsTest)
+Draw(xTest, dTest)
 
 
 
